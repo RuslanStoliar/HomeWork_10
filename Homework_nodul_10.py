@@ -75,9 +75,3 @@ class Record:
         except ValueError:
             return f'{old_number} does not exists'
 
-c  = Record("Ruslam")
-c.add_phone("380976053026")
-c.add_phone("030673179254")
-b = AddressBook()
-b.add_record(c)
-print(c.get_info())
